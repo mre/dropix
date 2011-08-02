@@ -29,7 +29,7 @@ see `index.php`.
 
 ## How it works
 Dropix makes API calls to Dropbox by using the awesome  
-[`dropbox.php` library][1] by tijsverkoyen.
+[`dropbox.php library`][1] by tijsverkoyen.
 
 ## Copyright
 
