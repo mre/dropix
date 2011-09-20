@@ -17,12 +17,13 @@ if(!isset($_GET['authorize'])) {
 // Do not use this if you can authorize with OAuth.
 // $response = $dropbox->token(EMAIL, PASSWORD);
 
-echo '<html><head><title>Dropix</title></head><body>';
-echo 'Please add the following information to your <code>config.php</code>:<br />';
-echo '<code>define("TOKEN", "' . $response["oauth_token"] . '");</code><br />';
-echo '<code>define("TOKEN_SECRET", "' . $response["oauth_token_secret"] . '");</code>';
-echo '<br />';
-echo 'Afterwards delete this file.';
-echo '</body></html>';
-
 ?>
+
+<html><head><title>Dropix</title></head><body>
+Please add the following information to your <code>config.php</code>:
+<p>
+  <code>define("TOKEN", "<?php echo $response["oauth_token"] ?>");</code><br />
+  <code>define("TOKEN_SECRET", "<?php echo $response["oauth_token_secret"] ?>");</code>
+</p>
+Afterwards delete the file <code>auth.php</code>.
+</body></html>

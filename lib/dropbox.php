@@ -782,7 +782,6 @@ class Dropbox
 		return $return;
 	}
 
-
 	/**
 	 * Redirect the user to the oauth/authorize location so that Dropbox can authenticate the user and ask whether or not the user wants to authorize the application to access
 	 * file metadata and content on its behalf. oauth/authorize is not an API call per se, because it does not have a return value, but rather directs the user to a page on
@@ -1108,5 +1107,4 @@ class Dropbox
 class DropboxException extends Exception
 {
 }
-
 ?>

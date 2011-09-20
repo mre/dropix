@@ -1,0 +1,2 @@
+This file exists because as of 09-2011 git can't add empty directories
+to a repository (go figure).

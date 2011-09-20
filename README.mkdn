@@ -1,40 +1,48 @@
 Dropix
 ======
 
-A dropbox image gallery.
+A Dropbox image gallery.
 
-## Usage
+## Requirements
 
-1. Upload the whole dropix directory to your webserver.
+- A Dropbox account
+- Webserver with PHP support
 
-2. Authenticate dropix to access your dropbox account:
-Open your browser and open `www.example.com/path/to/dropix/auth.php`
 
-3. Open config.php with a text editor and modify the following:
-   - The path where your dropbox gallery should be created for instance:
-    `define("BASE_PATH", "Photos/MyGallery/");`
-   - The token you received in step two:
-    `define("TOKEN", "123456789abcdef");`
-    `define("TOKEN_SECRET", "123456789abcdef");`
+## Setup
 
-4. Delete auth.php from your webserver
+1.Due to Dropbox restrictions I'm not allowed to share my application
+  key. So you have to create a new Dropbox app at https://www.dropbox.com/developers/apps
+  and put the keys into `config.php`.
 
-5. Point your browser to `www.example.com/path/to/dropix` and enjoy your
-   gallery :)
+2.Upload the whole dropix directory to your webserver.
 
-## Customization
+3.Authenticate dropix to access your dropbox account:
+  Open your browser and open `www.example.com/path/to/dropix/auth.php` and
+  follow the instructions.
+
+4.Put some pictures into the gallery folder inside your Dropbox (no
+  spaces in filenames), point your browser to `www.example.com/path/to/dropix` and enjoy your
+  gallery :)
+
+
+## Customization / Themes
 
 The gallery is fully customizable via html and css. For a basic example
 see `index.php`.
 
+
 ## How it works
-Dropix makes API calls to Dropbox by using the awesome  
-[`dropbox.php library`][1] by tijsverkoyen.
+
+Dropix makes API calls to Dropbox using the awesome 
+[`Dropbox-API wrapper class`][1] by tijsverkoyen.
+
 
 ## Copyright
 
 Copyright (C) 2011 Matthias Endler  
 http://www.matthias-endler.de
+
 
 ## License
 
