@@ -2,7 +2,7 @@
 
 // Path to gallery inside your dropbox folder.
 // (Don't forget the trailing slash.)
-define("BASE_PATH", "Photos/Your-Galerie/");
+define("BASE_PATH", "Photos/Your-Gallery/");
 
 // Application data. Put your application key here.
 define("APPLICATION_KEY", "ENTER-YOUR-APP-KEY-HERE");

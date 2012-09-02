@@ -5,48 +5,48 @@ A Dropbox image gallery.
 
 ## Requirements
 
-- A Dropbox account
-- Webserver with PHP support
+* Dropbox account
+* Webserver with PHP support
 
 
 ## Setup
 
-1.Due to Dropbox restrictions I'm not allowed to share my application
-  key. So you have to create a new Dropbox app at https://www.dropbox.com/developers/apps
-  and put the keys into `config.php`.
+1. Due to Dropbox restrictions I'm not allowed to share my application
+   key. So you have to create a new Dropbox app at https://www.dropbox.com/developers/apps
+   and put the keys into `config.php`.
 
-2.Upload the whole dropix directory to your webserver.
+2. Upload the whole dropix directory to your webserver.
 
-3.Authenticate dropix to access your dropbox account:
-  Open your browser and open `www.example.com/path/to/dropix/auth.php` and
-  follow the instructions.
+3. Authenticate dropix to access your dropbox account:
+   Open your browser, type `www.example.com/path/to/dropix/auth.php` and
+   follow the instructions.
 
-4.Put some pictures into the gallery folder inside your Dropbox (no
-  spaces in filenames), point your browser to `www.example.com/path/to/dropix` and enjoy your
-  gallery :)
+4. Put some pictures into the gallery folder inside your Dropbox (no
+   spaces in filenames), point your browser to `www.example.com/path/to/dropix` and enjoy your
+   gallery :)
 
 
 ## Customization / Themes
 
-The gallery is fully customizable via html and css. For a basic example
+The gallery is fully customizable via html and css. For a basic example,
 see `index.php`.
 
 
 ## How it works
 
-Dropix makes API calls to Dropbox using the awesome 
+Dropix makes API calls to Dropbox using the awesome
 [`Dropbox-API wrapper class`][1] by tijsverkoyen.
 
 
 ## Copyright
 
-Copyright (C) 2011 Matthias Endler  
+Copyright (C) 2011 Matthias Endler
 http://www.matthias-endler.de
 
 
 ## License
 
-GNU General Public License version 3.  
+GNU General Public License version 3.
 See LICENSE.txt for details.
 
 
