@@ -3,6 +3,11 @@ Dropix
 
 A Dropbox image gallery.
 
+## Todo
+
+This gallery is currently not working. [Here's why][2].
+If you can fix the issue, please do.
+
 ## Requirements
 
 * Dropbox account
@@ -51,3 +56,4 @@ See LICENSE.txt for details.
 
 
 [1]: https://github.com/tijsverkoyen/Dropbox
+[2]: https://github.com/mre/dropix/issues/1
