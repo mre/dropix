@@ -1,12 +1,13 @@
 Dropix
 ======
 
-A Dropbox image gallery.
+A Dropbox image gallery. This project has been deprecated. 
+For all the folks looking for an alternative,  head over to
+my new thing, [unicorn](http://www.github.com/mre/unicorn). 
 
 ## Todo
 
-This gallery is currently not working. [Here's why][2].
-If you can fix the issue, please do.
+This gallery is currently not working. [Here's why][2]. 
 
 ## Requirements
 
